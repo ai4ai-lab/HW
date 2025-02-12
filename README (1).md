@@ -3,10 +3,11 @@
 Due date: Wed 19 Feb 2025 EOD
 
 Submission Instructions:
+--------
 Turn in your code script marked firstname_lastname.py
 Late submissions will be penalized by 10\% per day late and will not be marked after the 3rd day. 
 Then read the paper linked in the homework titled Risk Sensitive Dead End Discovery and answer the questions below. Upload these as a pdf 
-----------------------------------------------------------------------------------------------------------------------------------------
+
 
 In this exercise, you will implement the interaction of a reinforcement learning agent with its environment. We will use the Gridworld environment from the second lecture. You will find a description of the environment below, along with two pieces of relevant material from the lectures: the agent-environment interface and the Q-learning algorithm.
 
@@ -24,9 +25,9 @@ In this exercise, you will implement the interaction of a reinforcement learning
 The agent has four possible actions in each state (grid square): west, north, south, and east. The actions are unreliable. They move the agent in the intended direction with probability 0.8, and with probability 0.2, they move the agent in a random other direction. It the direction of movement is blocked, the agent remains in the same grid square. The initial state of the agent is one of the five grid squares at the bottom, selected randomly. The grid squares with the gold and the bomb are **terminal states**. If the agent finds itself in one of these squares, the episode ends. Then a new episode begins with the agent at the initial state.
 
 You will use a reinforcement learning algorithm to compute the best policy for finding the gold with as few steps as possible while avoiding the bomb. For this, we will use the following reward function: -1 for each navigation action, an additional +10 for finding the gold, and an additional -10 for hitting the bomb. For example, the immediate reward for transitioning into the square with the gold is -1 + 10 = +9. Do not use discounting (that is, set gamma=1).
-------------------------------------------------------------------------------------------------------------------------------------------
-Risk sensitive Dead End Discovery Questions:
 
+Risk sensitive Dead End Discovery Questions:
+-----------------
 1) How does the proposed solution in the paper differ from Q-learning?
 2) Describe the Distributional RL paradigm and how it works
 3) What are the limitations of the proposed approach for dead-end discovery
