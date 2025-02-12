@@ -11,11 +11,11 @@ Then read the paper linked in the homework titled Risk Sensitive Dead End Discov
 
 In this exercise, you will implement the interaction of a reinforcement learning agent with its environment. We will use the Gridworld environment from the second lecture. You will find a description of the environment below, along with two pieces of relevant material from the lectures: the agent-environment interface and the Q-learning algorithm.
 
-1. Create an agent that chooses actions randomly with this environment. 
+1. Create an agent that chooses actions randomly with this environment. (5 marks)
 
-2. Create an agent that uses Q-learning. You can use initial Q values of 0, a stochasticity parameter for the $\epsilon$-greedy policy function $\epsilon=0.05$, and a learning rate $\alpha = 0.1$. But feel free to experiment with other settings of these three parameters.
+2. Create an agent that uses Q-learning. You can use initial Q values of 0, a stochasticity parameter for the $\epsilon$-greedy policy function $\epsilon=0.05$, and a learning rate $\alpha = 0.1$. But feel free to experiment with other settings of these three parameters. (5 marks)
 
-3. Plot the mean total reward obtained by the two agents through the episodes. This is called a **learning curve**. Run enough episodes for the Q-learning agent to converge to a near-optimal policy. 
+3. Plot the mean total reward obtained by the two agents through the episodes. This is called a **learning curve**. Run enough episodes for the Q-learning agent to converge to a near-optimal policy. (5 marks)
 
 
 ## The environment: Navigation in a gridworld
@@ -28,7 +28,7 @@ You will use a reinforcement learning algorithm to compute the best policy for f
 
 Risk sensitive Dead End Discovery Questions:
 -----------------
-1) How does the proposed solution in the paper differ from Q-learning?
-2) Describe the Distributional RL paradigm and how it works
-3) What are the limitations of the proposed approach for dead-end discovery
-4) How might you formulate the problem of finding dead ends differently instead of using distributional RL?
+1) How does the proposed solution in the paper differ from Q-learning? (3 marks)
+2) Describe the Distributional RL paradigm and how it works (3 marks)
+3) What are the limitations of the proposed approach for dead-end discovery (3 marks)
+4) How might you formulate the problem of finding dead ends differently instead of using distributional RL? (6 marks)
