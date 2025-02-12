@@ -8,7 +8,7 @@ Turn in your code script marked firstname_lastname.py
 Late submissions will be penalized by 10\% per day late and will not be marked after the 3rd day. Then read the paper linked titled 'Risk Sensitive Dead End Identification in Safety Critical Offline RL' https://openreview.net/pdf?id=oKlEOT83gI and answer the questions. Upload these as a pdf 
 
 
-In this exercise, you will implement the interaction of a reinforcement learning agent with its environment. We will use the Gridworld environment from the last lecture. You will find a description of the environment below, along with two pieces of relevant material from the lectures: the agent-environment interface and the Q-learning algorithm.
+In this exercise, you will implement the interaction of a reinforcement learning agent with its environment. We will use the Gridworld environment from the last lecture. 
 
 1. Create an agent that chooses actions randomly with this environment. (5 marks)
 
